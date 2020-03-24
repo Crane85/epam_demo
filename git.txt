@@ -1,0 +1,30 @@
+ ssh-keygen -t rca -C "crane85@gmail.com"  создание ssh ключа
+
+ git config --global user.name "AZhuravlev" прописание имени владельца репозитория
+
+ git config --global user.email "crane85@gmail.com" прописание почты владельца репозитория
+
+ git config --global user.name - проверка прописанного имени
+
+ git config --global user.email - проверка прописанного емейла
+
+ cd /c/users/AZhuravlev/onedrive/java/ - вход в директорию репозитория
+
+ git clone git@github.com:Crane85/epam_demo.git - синхронизация локальной директории и репозитория
+
+ ls - проверка синхронизации
+
+ git remote -v - проверка подлиности репозитория
+
+ git status - проверка изменений репозиторий/директория
+
+ git add new.txt - добавление изменений
+
+ git reset - откат обновлений
+
+ git commit - "одобрение" обновления (-m " " - сообщение в коммите)
+
+ git log -  история коммитов
+
+ git push -  синхронизация репозитория и директории
+
